@@ -6,7 +6,6 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js",
     "live": "live-server src",
-    "test": "jest --testPathPattern=./src/js/__test__/",
     "lint": "eslint .",
     "build": "webpack --config webpack.config.js"
   },
